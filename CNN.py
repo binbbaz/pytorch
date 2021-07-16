@@ -91,5 +91,5 @@ def check_accuracy(loader, model):
 
 check_accuracy(train_loader, model)
 check_accuracy(test_loader, model)
-
+#I had an accuracy of 89% when I used SGD and 99... when I used Adam
 
